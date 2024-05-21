@@ -6,7 +6,7 @@ p, h1,h2,h3,h4,h5,h6 {
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
-.conteiner {
+.container {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -121,6 +121,7 @@ ul, ol {
 }
 .effective-solution {
         background: #2e2f42;
+        padding: 188px 0;
 }
 .name-section-one {
     font-family: "Roboto", sans-serif;
@@ -130,7 +131,7 @@ ul, ol {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        width: 496px;
+        max-width: 496px;
         margin-right: auto;
             margin-left: auto;
 
@@ -150,9 +151,9 @@ margin-right: auto;
     display: block;
     height: 56px;
     min-width: 169px;
-    bottom: none;
     border-radius: 4px;
     margin-top: 48px;
+    border: none;
     
 
 
@@ -168,6 +169,9 @@ margin-right: auto;
 /* --------------MAIN PART-------------- */
 
 /*--------------- Advantages-------------- */
+.section-class {
+    padding: 120px 0;
+}
 .advantages-list {
     margin-top: 120px;
     margin-bottom: 120px;
@@ -196,7 +200,8 @@ margin-right: auto;
         letter-spacing: 0.02em;
         color: #2e2f42;
         text-decoration: none;
-        /* width: calc((100%-72px)/4); */
+        width: calc((100%-72px)/4);
+        margin-bottom: 8px;
 
 }
 .strategy-text {
@@ -225,10 +230,13 @@ margin-right: auto;
 .our-team-all {
     background-color: #ffffff;
     text-decoration: none;
+    width: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
 }
 .our-team {
     
         background: #f4f4fd;
+        padding: 120px 0;
 }
 .our-team-head {
     font-family: "Roboto", sans-serif;
@@ -240,11 +248,12 @@ margin-right: auto;
         color: #2e2f42;
         text-transform: capitalize;
         padding-top: 120px;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 .our-team-foto {
 
         background-color: #FFFFFF;
+        display: block;
 }
 .our-team-foto-name {
     font-family: "Roboto", sans-serif;
@@ -266,6 +275,14 @@ margin-right: auto;
 /*----------------------- OUR TEAM--------------------- */
 
 /* ----------------------PORTFOLIO------------------- */
+.portfolio-conteiner {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
+.portfolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .portfolio-list {
     padding-bottom: 120px;
@@ -273,8 +290,8 @@ margin-right: auto;
     width: 1128px;
     gap: 24px;
     flex-wrap: wrap;
-    /* padding-bottom: 48px;
-    padding-top: 48px; */
+    row-gap: 48px;
+
 }
 .porfolio-name {
     font-family: "Roboto", sans-serif;
@@ -286,10 +303,11 @@ margin-right: auto;
         color: #2e2f42;
         text-transform: capitalize;
         padding-top: 120px;
-            padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 .portfolio-foto {
     background: url("path_to_image");
+    display: block;
     
 
 }
@@ -301,8 +319,7 @@ margin-right: auto;
         letter-spacing: 0.02em;
         color: #2e2f42;
         padding-top: 32px;
-        padding-bottom: 8px;
-        /* padding: 32px 226px 64px 16px; */
+        margin-bottom: 8px;
         padding-left: 16px;
 }
 .portfolio-text {
@@ -319,6 +336,7 @@ margin-right: auto;
 /*---------------------- FOOTER--------------------------- */
 .footer-main {
     background: #2e2f42;
+    padding: 100px 0;
 
 }
 .footer-logo-web {
@@ -331,7 +349,8 @@ margin-right: auto;
         color: #4d5ae5;
         text-decoration: none;
         display: inline-block;
-       /* margin-top: 100px; */
+        margin-bottom: 16px;
+       
     
        
 }
@@ -346,7 +365,7 @@ margin-right: auto;
         text-decoration: none;
         display: inline-block;
         margin-top: 100px;
-        padding-bottom: 16px;
+        margin-bottom: 16px;
        
 }
 .footer-text {
