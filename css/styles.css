@@ -110,9 +110,9 @@ ul, ol {
 
 /* --------------MAIN PART-------------- */
 .conteiner-button {
-    padding: 188px 0;
+    /* padding: 188px 0;
         margin-right: auto;
-        margin-left: auto;
+        margin-left: auto; */
 }
 .body-text {
     font-family: "Roboto", sans-serif;
@@ -176,8 +176,8 @@ width: calc((100%-72px)/4);
     padding: 120px 0;
 }
 .advantages-list {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    /* margin-top: 120px;
+    margin-bottom: 120px; */
     display: flex;
     gap: 24px;
     
@@ -224,7 +224,7 @@ width: calc((100%-72px)/4);
    
 }
 .our-team-list {
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
     display: flex;
     gap: 24px;
     
@@ -249,7 +249,7 @@ width: calc((100%-72px)/4);
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
-        padding-top: 120px;
+        /* padding-top: 120px; */
         margin-bottom: 72px;
 }
 .our-team-foto {
@@ -292,9 +292,9 @@ width: calc((100%-72px)/4);
 }
 
 .portfolio-list {
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
     display: flex;
-    width: 1128px;
+    /* width: 1128px; */
     gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px;
@@ -309,7 +309,7 @@ width: calc((100%-72px)/4);
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
-        padding-top: 120px;
+        /* padding-top: 120px; */
         margin-bottom: 72px;
 }
 .portfolio-foto {
@@ -325,9 +325,9 @@ width: calc((100%-72px)/4);
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-top: 32px;
+        /* padding-top: 32px; */
         margin-bottom: 8px;
-        padding-left: 16px;
+        /* padding-left: 16px; */
 }
 .portfolio-text {
     font-family: "Roboto", sans-serif;
@@ -336,7 +336,7 @@ width: calc((100%-72px)/4);
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding-left: 16px;
+        /* padding-left: 16px; */
 }
 /* ----------------------PORTFOLIO------------------- */
 
@@ -356,7 +356,7 @@ width: calc((100%-72px)/4);
         color: #4d5ae5;
         text-decoration: none;
         display: inline-block;
-        margin-bottom: 16px;
+        /* margin-bottom: 16px; */
        
     
        
@@ -371,8 +371,8 @@ width: calc((100%-72px)/4);
         color: #f4f4fd;
         text-decoration: none;
         display: inline-block;
-        margin-top: 100px;
-        margin-bottom: 16px;
+        /* margin-top: 100px;
+        margin-bottom: 16px; */
        
 }
 .footer-text {
@@ -383,7 +383,7 @@ width: calc((100%-72px)/4);
         letter-spacing: 0.02em;
         color: #f4f4fd;
         width: 264px;
-        padding-bottom: 100px;
+        /* padding-bottom: 100px; */
        
 }
 
