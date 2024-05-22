@@ -167,7 +167,7 @@ margin-right: auto;
 
 /*--------------- Advantages-------------- */
 .advantages-list-item {
-width: calc((100%-72px)/4);
+width: calc((100% - 72px) / 4);
 }
 .section-class {
     padding: 120px 0;
@@ -226,7 +226,7 @@ width: calc((100%-72px)/4);
 .our-team-all {
     background-color: #ffffff;
     text-decoration: none;
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .our-team {
